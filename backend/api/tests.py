@@ -6,6 +6,7 @@ from api import models
 
 
 class TaskiAPITestCase(TestCase):
+
     def setUp(self):
         self.guest_client = Client()
 
